@@ -1,0 +1,41 @@
+/*
+Possible Fonts:
+font-family: 'Vollkorn SC', serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Marck Script', cursive;
+*/
+
+.titles{
+    text-align:center;
+    
+}
+#title1{
+    font-family: 'Vollkorn SC', serif;
+}
+#subtitle1{
+    font-family: 'Marck Script', cursive;
+}
+@media (min-width:768px){
+    #title1{
+        font-size:60px;
+    }
+    #subtitle1{
+        font-size:35px;
+    }
+}
+@media (min-width:992px){
+    #title1{
+        font-size:75px;
+    }
+    #subtitle1{
+        font-size:50px;
+    }
+}
+@media (min-width:1200px){
+    #title1{
+        font-size:90px;
+    }
+    #subtitle1{
+        font-size:65px;
+    }
+}
