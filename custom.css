@@ -5,10 +5,22 @@ font-family: 'Nanum Brush Script', cursive;
 font-family: 'Marck Script', cursive;
 */
 
-.titles{
-    text-align:center;
-    
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
 }
+#landing {
+        display: table;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.6)),
+        url('img/balloon-1.jpg') no-repeat center;
+        background-size: cover;
+    }
+/* Below are the media queries for the title section */
 #title1{
     font-family: 'Vollkorn SC', serif;
 }
@@ -38,4 +50,33 @@ font-family: 'Marck Script', cursive;
     #subtitle1{
         font-size:65px;
     }
+}
+/* Below are the media queries for the home section */
+@media(max-width:768px){
+    p{
+        font-size:25px;
+    }
+}
+@media(min-width:768px){
+    p{
+        font-size:30px;
+    }
+}
+@media(min-width:922px){
+    p{
+        font-size:45px;
+    }
+}
+@media(min-width:1200px){
+    p{
+        font-size:60px;
+    }
+}
+p{
+    text-align:center;
+    font-family: 'Nanum Brush Script', cursive;
+}
+#test{
+    font-family: 'Vollkorn SC', serif;
+    font-weight:bold;
 }
