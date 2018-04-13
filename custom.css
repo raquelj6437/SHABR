@@ -4,7 +4,13 @@ font-family: 'Vollkorn SC', serif;
 font-family: 'Nanum Brush Script', cursive;
 font-family: 'Marck Script', cursive;
 */
-
+.container{
+    text-align:center;
+    
+}
+.imgs{
+    padding:0px 0px 15px 0px;
+}
 .text-vertical-center {
     text-align: center;
     vertical-align: middle;
