@@ -29,6 +29,7 @@ font-family: 'Marck Script', cursive;
 /* Below are the media queries for the title section */
 #title1{
     font-family: 'Vollkorn SC', serif;
+    
 }
 #subtitle1{
     font-family: 'Marck Script', cursive;
@@ -58,6 +59,11 @@ font-family: 'Marck Script', cursive;
     }
 }
 /* Below are the media queries for the home section */
+/*
+Need to add the fading in effect for home. References: 
+https://www.w3schools.com/jquery/jquery_fade.asp
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
+*/
 @media(max-width:768px){
     p{
         font-size:25px;
