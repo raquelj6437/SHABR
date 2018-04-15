@@ -28,13 +28,12 @@ h1{
 }
 
 #testinmonials-tag{
-    font-size: small;
     font-family: 'Noto Sans', sans-serif;
+    font-size:small;
 }
 
 #testinmonials{
     font-family: 'Gaegu', cursive;
-
 }
 
 .landing {
@@ -50,34 +49,34 @@ h1{
 }
     
 /* Below are the media queries for the title section */
-#title1{
+.title1{
     font-family: 'Vollkorn SC', serif;
     
 }
-#subtitle1{
+.subtitle1{
     font-family: 'Marck Script', cursive;
 }
-@media (min-width:768px){
-    #title1{
+@media (min-width:600px){
+    .title1{
         font-size:60px;
     }
-    #subtitle1{
+    .subtitle1{
         font-size:35px;
     }
 }
 @media (min-width:992px){
-    #title1{
+    .title1{
         font-size:75px;
     }
-    #subtitle1{
+    .subtitle1{
         font-size:50px;
     }
 }
 @media (min-width:1200px){
-    #title1{
+    .title1{
         font-size:90px;
     }
-    #subtitle1{
+    .subtitle1{
         font-size:65px;
     }
 }
@@ -88,26 +87,27 @@ https://www.w3schools.com/jquery/jquery_fade.asp
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 */
 @media(max-width:768px){
-    p{
+    #home{
         font-size:25px;
     }
 }
 @media(min-width:768px){
-    p{
+    #home{
         font-size:30px;
     }
 }
 @media(min-width:922px){
-    p{
+    #home{
         font-size:45px;
     }
 }
 @media(min-width:1200px){
-    p{
+    #home{
         font-size:60px;
     }
 }
-p{
+
+#home{
     text-align:center;
     font-family: 'Nanum Brush Script', cursive;
 }
@@ -118,4 +118,26 @@ p{
 
 #gallery{
     background-color: lightblue;
+}
+
+/*Css for testimonials*/
+@media(max-width:768px){
+    .testinmonial-text{
+        font-size:15px;
+    }
+}
+@media(min-width:768px){
+    .testinmonial-text{
+        font-size:20px;
+    }
+}
+@media(min-width:922px){
+    .testinmonial-text{
+        font-size:35px;
+    }
+}
+@media(min-width:1200px){
+    .testinmonial-text{
+        font-size:50px;
+    }
 }
