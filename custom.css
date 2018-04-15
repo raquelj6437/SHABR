@@ -21,8 +21,23 @@ html, body {
       width: 100%;
       height: 100%;
     }
-    
-#landing {
+
+h1{
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+}
+
+#testinmonials-tag{
+    font-size: small;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#testinmonials{
+    font-family: 'Gaegu', cursive;
+
+}
+
+.landing {
   display: table;
   width: 100%;
   height: 100%;
@@ -96,7 +111,11 @@ p{
     text-align:center;
     font-family: 'Nanum Brush Script', cursive;
 }
-#test{
+.test{
     font-family: 'Vollkorn SC', serif;
     font-weight:bold;
+}
+
+#gallery{
+    background-color: lightblue;
 }
