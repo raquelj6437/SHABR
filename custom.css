@@ -187,15 +187,21 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 }
 
 #info{
-    background: linear-gradient(
-    rgba(0,0,0,0),
-    rgba(0,0,0,0.50)
-  );
+  /*  background: linear-gradient(*/
+  /*  rgba(0,0,0,0),*/
+  /*  rgba(0,0,0,0.50)*/
+  /*);*/
+  background-color: pink;
 }
 
 #myCarousel{
     height: 240px;
 }
 
-.item{
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 200px !important;
 }
