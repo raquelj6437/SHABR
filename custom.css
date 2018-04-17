@@ -9,7 +9,7 @@ font-family: 'Marck Script', cursive;
 }
 
 .pull-right,.text-left{
-    width: 400px;
+    
 }
 .imgs{
     padding:0px 0px 15px 0px;
@@ -153,6 +153,7 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 .test{
     font-family: 'Vollkorn SC', serif;
     font-weight:bold;
+    color: black;
 }
 
 #gallery{
@@ -163,21 +164,25 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 @media(max-width:768px){
     .testinmonial-text{
         font-size:20px;
+        width: 400px;
     }
 }
 @media(min-width:768px){
     .testinmonial-text{
         font-size:20px;
+         width: 400px;
     }
 }
 @media(min-width:922px){
     .testinmonial-text{
         font-size:30px;
+        width: 500px;
     }
 }
 @media(min-width:1200px){
     .testinmonial-text{
         font-size:45px;
+        width: 600px;
     }
 }
 
