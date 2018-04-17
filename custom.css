@@ -9,9 +9,7 @@ font-family: 'Marck Script', cursive;
     
 }
 
-.pull-right,.text-left{
-    
-}
+
 .imgs{
     padding:0px 0px 15px 0px;
     
@@ -129,7 +127,7 @@ https://www.w3schools.com/jquery/jquery_fade.asp
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 */
 @media(max-width:768px){
-    #home{
+    h1,h2,p{
         font-size:25px;
     }
 }
@@ -179,13 +177,21 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 @media(min-width:922px){
     .testinmonial-text{
         font-size:30px;
-        width: 500px;
+        width: 600px;
+    }
+    .text-left{
+        position: relative;
+        top: 60px;
     }
 }
 @media(min-width:1200px){
     .testinmonial-text{
         font-size:45px;
-        width: 600px;
+        width: 1200px;
+    }
+    .text-left{
+        position: relative;
+        top: 100px;
     }
 }
 
