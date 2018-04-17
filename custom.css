@@ -42,7 +42,8 @@ div p span{
 
 #testinmonials-tag{
     font-family: 'Noto Sans', sans-serif;
-    font-size:small;
+    /*font-size:small;*/
+    font-size:25px;
 }
 
 #testinmonials{
@@ -163,7 +164,7 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 
 /*Css for testimonials*/
 @media(max-width:768px){
-    .testinmonial-text{
+    .testinmonials-text{
         font-size:20px;
         width: 400px;
     }
@@ -185,7 +186,7 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
     }
 }
 @media(min-width:1200px){
-    .testinmonial-text{
+    .testinmonials-text{
         font-size:45px;
         width: 1200px;
     }
@@ -194,6 +195,26 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
         top: 100px;
     }
 }
+
+
+@media(min-width:768px){
+    .testinmonials-tag{
+        font-size:20px;
+
+    }
+}
+@media(min-width:922px){
+    .testinmonials-tag{
+        font-size:30px;
+        
+    }
+}
+@media(min-width:1200px){
+    .testinmonials-tag{
+        font-size:45px;
+    }
+}
+
 
 #info{
   /*  background: linear-gradient(*/
