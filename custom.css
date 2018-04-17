@@ -6,6 +6,7 @@ font-family: 'Marck Script', cursive;
 */
 .container{
     text-align:center;
+    
 }
 
 .pull-right,.text-left{
@@ -13,6 +14,7 @@ font-family: 'Marck Script', cursive;
 }
 .imgs{
     padding:0px 0px 15px 0px;
+    
 }
 .text-vertical-center {
     text-align: center;
@@ -47,6 +49,7 @@ div p span{
 
 #testinmonials{
     font-family: 'Gaegu', cursive;
+    background-color:lightpink;
 }
 
 .landing {
@@ -198,4 +201,8 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 }
 
 .item{
+}
+
+body{
+    background-color:lightblue;
 }
