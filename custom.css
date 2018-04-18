@@ -129,21 +129,27 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
 */
 @media(max-width:768px){
     h1,h2,p{
-        font-size:25px;
+        font-size:15px;
     }
+    #myCarousel{
+    height: 240px;
+}
 }
 @media(min-width:768px){
-    #home{
-        font-size:30px;
+    h1,h2,p{
+        font-size:20px;
     }
+    #myCarousel{
+    height: 300px;
+}
 }
 @media(min-width:922px){
-    #home{
+    h1,h2,p{
         font-size:45px;
     }
 }
 @media(min-width:1200px){
-    #home{
+    h1,h2,p{
         font-size:60px;
     }
 }
@@ -223,11 +229,6 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
   /*);*/
   background-color: pink;
 }
-
-#myCarousel{
-    height: 240px;
-}
-
 
 .tales {
   width: 100%;
