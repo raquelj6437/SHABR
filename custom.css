@@ -143,16 +143,6 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein
     height: 300px;
 }
 }
-@media(min-width:922px){
-    h1,h2,p{
-        font-size:45px;
-    }
-}
-@media(min-width:1200px){
-    h1,h2,p{
-        font-size:60px;
-    }
-}
 
 #home{
     text-align:center;
